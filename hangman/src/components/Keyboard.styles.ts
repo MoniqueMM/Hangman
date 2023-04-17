@@ -1,5 +1,6 @@
-import { BlackColor, GreenColor, LightGreenColor } from "colors";
-import styled from styled-components;
+import styled from "styled-components";
+import { BlackColor, GreenColor, LightGreenColor } from "../colors";
+
 
 // czym są rem? relative to root element font size - relatywnie do wielkości ustawionej ma HTML np. 14px to 1.5 rem to 21px
 // trzeba uważać na ; bo potem całe CSSy lecą

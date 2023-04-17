@@ -1,4 +1,4 @@
-import { GreenColor, LightGreenColor, RedColor } from "colors";
+import { GreenColor, LightGreenColor, RedColor } from "../colors";
 import styled from "styled-components";
 
 // em bazuje na wielkości elementu nadrzędnego - relatywnie czyli jeżeli parent ma 20px to 1.5em to 30px, można zapisać bez 0

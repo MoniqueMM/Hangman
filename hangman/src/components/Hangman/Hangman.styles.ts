@@ -1,4 +1,4 @@
-import { RedColor } from "colors";
+
 
 import {
   TorsoLeftPosition,
@@ -19,9 +19,10 @@ import {
   HangmanLegRotation,
   LeftLegPosition,
   RightLegPosition,
-} from "sizes";
+} from "../../sizes";
 import styled from "styled-components";
 import { LimbPlacement } from "../../models/enums/LimbPlacement";
+import { RedColor } from "../../colors";
 
 export const Head = styled.div`
   height: ${HangmanHeadSize}px;

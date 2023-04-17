@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useCallback, useState } from "react";
 
-import words from "words";
+
 import {
   FailedButton,
   ResultContainer,
@@ -12,6 +12,7 @@ import { HangmanBoard } from "./HangmanBoard";
 import { HangmanWord } from "./HangmanWord";
 import { Keyboard } from "./Keyboard";
 import { getRandomInt } from "../utils/utils";
+import words from "../words";
 
 export const Game = () => {
   const [choosenLetters, setChoosenLetters] = useState<string[]>([]);

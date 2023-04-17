@@ -9,9 +9,9 @@ import {
   GallowTopBarLeftPosition,
   GallowMainBarWidth,
   GallowMainBarHeight,
-} from "sizes";
+} from "../../sizes";
 import styled from "styled-components";
-import { BlackColor } from "colors";
+import { BlackColor } from "../../colors";
 
 export const Hanger = styled.div`
   height: ${GallowHangerHeight}px;

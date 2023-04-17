@@ -1,5 +1,6 @@
-import { GreenColor, RedColor } from "colors";
+
 import styled from "styled-components";
+import { GreenColor, RedColor } from "../colors";
 
 export const ResultContainer = styled.div`
   display: flex;
